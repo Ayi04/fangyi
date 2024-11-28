@@ -1,5 +1,17 @@
-title: Modernist theme
-description: Modernist is a theme for GitHub Pages.
-show_downloads: true
-google_analytics:
-theme: jekyll-theme-modernist
+remote_theme: kitian616/jekyll-TeXt-theme
+plugins:
+  - jekyll-feed
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jemoji
+  - jekyll-remote-theme
+source "https://rubygems.org"
+
+# gem "jekyll-text-theme", path: "../"
+gem "jekyll-text-theme"
+
+gem "tzinfo-data"
+gem "wdm", "~> 0.1.0" if Gem.win_platform?
+
+gem "webrick", "~> 1.7"
+gem "jekyll-remote-theme"
